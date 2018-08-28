@@ -1,0 +1,19 @@
+{
+  "name": "kinto-jokes-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denistsoi/icame4dalolz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denistsoi/icame4dalolz/issues"
+  },
+  "homepage": "https://github.com/denistsoi/icame4dalolz#readme"
+}
