@@ -2,3 +2,5 @@
 
 kintohub jokes static frontend
 
+### license
+MIT . 
