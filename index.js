@@ -6,8 +6,8 @@ fetch("https://api.kintohub.com/jokes/", {
   const data = await response.json();
   
   const jokes = document.createElement("div");
-  data.map(item => {
-    const joke = document.createTextNode(item.title + item.selftext);
+  data.map((item, index) => {
+    const joke = document.createTextNode(`${index}: ${item.title} ${item.selftext} \n\n`);
     jokes.appendChild(joke);
   })
 
